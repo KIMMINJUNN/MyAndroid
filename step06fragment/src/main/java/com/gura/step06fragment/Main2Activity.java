@@ -1,15 +1,14 @@
-package com.gura.step07customview;
+package com.gura.step06fragment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class Main2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(E.layout.activity_main);
-        setContentView(new TouchView(this));
+        setContentView(R.layout.activity_main2);
     }
 }

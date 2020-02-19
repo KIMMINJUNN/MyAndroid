@@ -1,4 +1,4 @@
-package com.gura.step07customview;
+package com.gura.beer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,7 +9,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(E.layout.activity_main);
-        setContentView(new TouchView(this));
+        //BeerView 객체 생성
+        BeerView view=new BeerView(this);
+        setContentView(view);
     }
 }
