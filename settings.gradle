@@ -1,2 +1,2 @@
-include ':step01layout', ':step02activity', ':step03listview', ':step04customlist', ':step05asynctask', ':step07customview', ':beer'
+include ':step01layout', ':step02activity', ':step03listview', ':step04customlist', ':step05asynctask', ':step07customview', ':beer', ':test_myapplication'
 rootProject.name='MyAndroid'
